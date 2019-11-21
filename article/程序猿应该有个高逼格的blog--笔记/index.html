@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          [Hexo] Theme Jepson - 若泽数据@J哥 | Blog
+          程序猿应该有个高逼格的blog - 若泽数据@J哥 | Blog
         
     </title>
 
-    <link rel="canonical" href="http://www.ruozedata.com/article/hexo-theme-jepson/">
+    <link rel="canonical" href="http://www.ruozedata.com/article/程序猿应该有个高逼格的blog--笔记/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -88,14 +88,14 @@
                     <div class="post-heading">
                         <div class="tags">
                             
-                              <a class="tag" href="/tags/#Hexo" title="Hexo">Hexo</a>
+                              <a class="tag" href="/tags/#spark" title="spark">spark</a>
                             
                         </div>
-                        <h1>[Hexo] Theme Jepson</h1>
-                        <h2 class="subheading">This is hexo theme Demo.</h2>
+                        <h1>程序猿应该有个高逼格的blog</h1>
+                        <h2 class="subheading">耗时15h，刚刚出炉的视频+笔记</h2>
                         <span class="meta">
                             Posted by J哥 on
-                            2015-07-10
+                            2019-11-22
                         </span>
                     </div>
                 
@@ -212,64 +212,49 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-                <blockquote>
-<p>This Jepson theme created by <a href="http://www.ruozedata.com/">Jepson</a> modified from the original Porter <a href="https://github.com/YenYuHsuan/hexo-theme-beantech" target="_blank" rel="noopener">YuHsuan</a></p>
-</blockquote>
-<h1 id="blog-demo">Blog Demo</h1>
-<p>ruozedata官网 : <a href="http://www.ruozedata.com/">www.ruozedata.com</a></p>
-<p><img src="/img/article/ruozedata.png" alt="Theme Jepson"></p>
-<h1 id="install-hexo">Install Hexo</h1>
-<p>Install Node.js  and Git</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">#For window</span><br><span class="line">Node.js https://nodejs.org/dist/v12.13.0/node-v12.13.0-x64.msi</span><br><span class="line">Git https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.2/Git-2.24.0.2-64-bit.exe</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#For Mac</span><br><span class="line">brew install node</span><br><span class="line">brew install git</span><br></pre></td></tr></table></figure>
-<p>Install hexo</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span>For more:https://hexo.io/zh-cn/index.html</span><br></pre></td></tr></table></figure>
-<h1 id="theme-usage">Theme Usage</h1>
-<h2 id="init">Init</h2>
+                <h2 id="若泽数据程序猿应该有个高逼格的blog">若泽数据@程序猿应该有个高逼格的blog</h2>
 <hr>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/hackeruncle/hackeruncle-hexo.git ./hackeruncle-hexo</span><br><span class="line"><span class="built_in">cd</span> hackeruncle-hexo</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-<h2 id="modify">Modify</h2>
-<hr>
-<p>Modify <code>_config.yml</code> file with your own info.<br>
-Especially the section:</p>
-<h3 id="deployment">Deployment</h3>
-<p>Replace to your own repo, the name is the same as github user name!</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="string">git@github.com:&lt;git</span> <span class="string">user</span> <span class="string">name&gt;/&lt;git</span> <span class="string">user</span> <span class="string">name&gt;.github.io.git</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
-<h3 id="sidebar-settings">Sidebar settings</h3>
-<p>Copy your avatar image to <code>&lt;root&gt;/img/</code> and modify the <code>_config.yml</code>:</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sidebar:</span> <span class="literal">true</span>    <span class="comment"># whether or not using Sidebar.</span></span><br><span class="line"><span class="attr">sidebar-about-description:</span> <span class="string">"&lt;your description&gt;"</span></span><br><span class="line"><span class="attr">sidebar-avatar:</span> <span class="string">img/&lt;your</span> <span class="string">avatar</span> <span class="string">path&gt;</span></span><br></pre></td></tr></table></figure>
-<p>and activate your personal widget you like</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">widgets:</span>         <span class="comment"># here are widget you can use, you can comment out</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">featured-tags</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">short-about</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">recent-posts</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">friends-blog</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">archive</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">category</span></span><br></pre></td></tr></table></figure>
-<p>if you want to add sidebar widget, please add at <code>layout/_widget</code>.</p>
-<h3 id="signature-setup">Signature Setup</h3>
-<p>Copy your signature image to <code>&lt;root&gt;/img/signature</code> and modify the <code>_config.yml</code>:</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">signature:</span> <span class="literal">true</span>   <span class="comment"># show signature</span></span><br><span class="line"><span class="attr">signature-img:</span> <span class="string">img/signature/&lt;your-signature-ID&gt;</span></span><br></pre></td></tr></table></figure>
-<h3 id="go-to-top-icon-setup">Go to top icon Setup</h3>
-<p>My icon is using iron man, you can change to your own icon at <code>css/image</code>.</p>
-<h3 id="post-tag">Post tag</h3>
-<p>You can decide to show post tags or not.</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">home_posts_tag:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<h3 id="markdown-render">Markdown render</h3>
-<p>My markdown render engine plugin is <a href="https://github.com/celsomiranda/hexo-renderer-markdown-it" target="_blank" rel="noopener">hexo-renderer-markdown-it</a>.</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Markdown-it config</span></span><br><span class="line"><span class="comment">## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki</span></span><br><span class="line"><span class="attr">markdown:</span></span><br><span class="line"><span class="attr">  render:</span></span><br><span class="line"><span class="attr">    html:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    xhtmlOut:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    breaks:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    linkify:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    typographer:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    quotes:</span> <span class="string">'“”‘’'</span></span><br></pre></td></tr></table></figure>
-<p>and if you want to change the header anchor ‘ℬ’, you can go to <code>layout/post.ejs</code> to change it.</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">async</span>(<span class="string">"https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js"</span>,<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        anchors.options = &#123;</span><br><span class="line">          visible: <span class="string">'hover'</span>,</span><br><span class="line">          placement: <span class="string">'left'</span>,</span><br><span class="line">          icon: ℬ <span class="comment">// this is the header anchor "unicode" icon</span></span><br><span class="line">        &#125;;</span><br></pre></td></tr></table></figure>
-<h2 id="hexo-basics">Hexo Basics</h2>
-<hr>
-<h3 id="push-hexo-file-to-github">Push hexo file to github:</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">'init'</span></span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
-<h3 id="push-hexo-blog-html-to-local">Push hexo blog html to local :</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo server</span><br></pre></td></tr></table></figure>
-<p>open web: <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p>
-<h3 id="push-hexo-blog-html-to-github">Push hexo blog html to github :</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure>
-<p>open web: <a href="https://hackeruncle.github.io" target="_blank" rel="noopener">https://hackeruncle.github.io</a></p>
-<h1 id="have-fun-_">Have fun ^_^</h1>
-<hr>
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<!-- Place this tag where you want the button to render. -->
-<p>Please <a class="github-button" href="https://github.com/hackeruncle/hackeruncle-hexo" data-icon="octicon-star" aria-label="Star Jepson/hackeruncle-hexo on GitHub" target="_blank" rel="noopener">Star</a> this Project if you like it! <a class="github-button" href="https://github.com/hackeruncle" aria-label="Follow @Jepson on GitHub" target="_blank" rel="noopener">Follow</a> would also be appreciated!<br>
-Peace!</p>
+<h3 id="视频录制处理3晚耗时15h">视频(录制处理3晚，耗时15h)</h3>
+<p><a href="https://www.bilibili.com/video/av76542615/" target="_blank" rel="noopener">https://www.bilibili.com/video/av76542615/</a></p>
+<h3 id="笔记必须先看视频切记有问题找若泽数据j哥vx-ruoze_star">笔记(必须先看视频，切记，有问题找若泽数据@J哥vx: ruoze_star)</h3>
+<h4 id="nodejs部署">node.js部署</h4>
+<p>cmd窗口输入:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+<p>出现标识，成功安装node.js</p>
+<p>永久设置淘宝源:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry http://registry.npm.taobao.org/</span><br></pre></td></tr></table></figure>
+<h4 id="git部署">git部署</h4>
+<h4 id="hexo部署">hexo部署</h4>
+<p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line">先创建 E:\hexo</span><br><span class="line"></span><br><span class="line">初始化博客目录</span><br><span class="line">hexo init ruozedatablog</span><br><span class="line">npm install</span><br><span class="line"></span><br><span class="line">清理缓存</span><br><span class="line">hexo clean</span><br><span class="line"></span><br><span class="line">生成静态文件</span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">启动服务器</span><br><span class="line">hexo s</span><br><span class="line"></span><br><span class="line">可以整理常用命令组合</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+<p><a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a></p>
+<p>支持中文，不乱码</p>
+<h4 id="github">github</h4>
+<p>注册 英文名称简约 好记 高大尚<br>
+<a href="https://github.com/join?source=header-home" target="_blank" rel="noopener">https://github.com/join?source=header-home</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/Hackeruncle</span><br><span class="line"></span><br><span class="line">ssh-keygen -t rsa -b 4096 -C &quot;hackeruncle@163.com&quot;</span><br><span class="line"></span><br><span class="line">/c/Users/Administrator/.ssh/id_rsa.pub</span><br><span class="line"></span><br><span class="line">ssh -T git@github.com  第一次执行 是需要输入yes</span><br><span class="line"></span><br><span class="line">配置本地git的信息</span><br><span class="line">git config --global user.name &quot;Hackeruncle&quot;</span><br><span class="line">git config --global user.email &quot;hackeruncle@163.com&quot;</span><br><span class="line"></span><br><span class="line">创建仓库Hackeruncle.github.io，切记和Hackeruncle的一致</span><br><span class="line">https://github.com/Hackeruncle/Hackeruncle.github.io</span><br><span class="line">                    xxx          xxx</span><br></pre></td></tr></table></figure>
+<h4 id="hexo部署github">hexo部署github</h4>
+<p>window—&gt;github</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:Hackeruncle/Hackeruncle.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line"></span><br><span class="line">hexo clean &amp;&amp; hexo deploy  应该会出现 github的登录窗口 输入账号密码登录</span><br></pre></td></tr></table></figure>
+<p><a href="https://hackeruncle.github.io/" target="_blank" rel="noopener">https://hackeruncle.github.io/</a></p>
+<h4 id="换个高大尚的主题">换个高大尚的主题</h4>
+<p><a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank" rel="noopener">https://github.com/JoeyBling/hexo-theme-yilia-plus</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">cd ./themes/</span><br><span class="line">git clone --depth=1 https://github.com/JoeyBling/hexo-theme-yilia-plus.git ./yilia-plus</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">修改hexo根目录下的 _config.yml </span><br><span class="line">theme: yilia-plus</span><br><span class="line"></span><br><span class="line">部署推</span><br><span class="line">hexo clean &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure>
+<p>头像的问题 修正</p>
+<h4 id="最终选择hackeruncle-hexo">最终选择hackeruncle-hexo(★)</h4>
+<h5 id="选择hackeruncle-hexo">选择hackeruncle-hexo</h5>
+<p><a href="https://github.com/Hackeruncle/Hackeruncle-hexo" target="_blank" rel="noopener">https://github.com/Hackeruncle/Hackeruncle-hexo</a></p>
+<h5 id="clone仓库">clone仓库</h5>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Administrator@G0XO2VBVTUOBVSS MINGW64 /e/blog</span><br><span class="line">$ git clone https://github.com/hackeruncle/hackeruncle-hexo.git ./hackeruncle-hexo</span><br><span class="line"></span><br><span class="line">Administrator@G0XO2VBVTUOBVSS MINGW64 /e/blog</span><br><span class="line">$ cd  hackeruncle-hexo/</span><br></pre></td></tr></table></figure>
+<h5 id="github重建仓库">github重建仓库</h5>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/Hackeruncle/Hackeruncle.github.io</span><br><span class="line">先delete repo：Hackeruncle.github.io</span><br><span class="line">再创建   repo：Hackeruncle.github.io</span><br></pre></td></tr></table></figure>
+<h5 id="_configyml修改仓库地址">_config.yml修改仓库地址</h5>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:Hackeruncle/Hackeruncle.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<h5 id="本地测试推送github">本地测试+推送github</h5>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Push hexo blog html to local :</span><br><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo server</span><br><span class="line">open web: http://localhost:4000</span><br><span class="line"></span><br><span class="line">Push hexo blog html to github :</span><br><span class="line">hexo clean &amp;&amp; hexo deploy</span><br><span class="line">open web: https://hackeruncle.github.io</span><br></pre></td></tr></table></figure>
+<h5 id="如何创建blog">如何创建blog</h5>
+<h5 id="markdown语法学习">Markdown语法学习</h5>
+<p><a href="http://markdown.xiaoshujiang.com/" target="_blank" rel="noopener">http://markdown.xiaoshujiang.com/</a></p>
 
                 
 
@@ -277,10 +262,10 @@ Peace!</p>
                 <!-- Pager -->
                 <ul class="pager">
                     
-                        <li class="previous">
-                            <a href="/article/ruozedata/" data-toggle="tooltip" data-placement="top" title="Join ruozedata if you have a dream">&larr; Previous Post</a>
-                        </li>
                     
+                        <li class="next">
+                            <a href="/article/spark/" data-toggle="tooltip" data-placement="top" title="Spark">Next Post &rarr;</a>
+                        </li>
                     
                 </ul>
 
@@ -329,7 +314,7 @@ Peace!</p>
         <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#blog-demo"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">Blog Demo</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#install-hexo"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">Install Hexo</span></a></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#theme-usage"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">Theme Usage</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#init"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">Init</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#modify"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">Modify</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#deployment"><span class="toc-nav-number">3.2.1.</span> <span class="toc-nav-text">Deployment</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#sidebar-settings"><span class="toc-nav-number">3.2.2.</span> <span class="toc-nav-text">Sidebar settings</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#signature-setup"><span class="toc-nav-number">3.2.3.</span> <span class="toc-nav-text">Signature Setup</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#go-to-top-icon-setup"><span class="toc-nav-number">3.2.4.</span> <span class="toc-nav-text">Go to top icon Setup</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#post-tag"><span class="toc-nav-number">3.2.5.</span> <span class="toc-nav-text">Post tag</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#markdown-render"><span class="toc-nav-number">3.2.6.</span> <span class="toc-nav-text">Markdown render</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#hexo-basics"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">Hexo Basics</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#push-hexo-file-to-github"><span class="toc-nav-number">3.3.1.</span> <span class="toc-nav-text">Push hexo file to github:</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#push-hexo-blog-html-to-local"><span class="toc-nav-number">3.3.2.</span> <span class="toc-nav-text">Push hexo blog html to local :</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#push-hexo-blog-html-to-github"><span class="toc-nav-number">3.3.3.</span> <span class="toc-nav-text">Push hexo blog html to github :</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#have-fun-_"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">Have fun ^_^</span></a></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#若泽数据程序猿应该有个高逼格的blog"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">&#x82E5;&#x6CFD;&#x6570;&#x636E;@&#x7A0B;&#x5E8F;&#x733F;&#x5E94;&#x8BE5;&#x6709;&#x4E2A;&#x9AD8;&#x903C;&#x683C;&#x7684;blog</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#视频录制处理3晚耗时15h"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">&#x89C6;&#x9891;(&#x5F55;&#x5236;&#x5904;&#x7406;3&#x665A;&#xFF0C;&#x8017;&#x65F6;15h)</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#笔记必须先看视频切记有问题找若泽数据j哥vx-ruoze_star"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">&#x7B14;&#x8BB0;(&#x5FC5;&#x987B;&#x5148;&#x770B;&#x89C6;&#x9891;&#xFF0C;&#x5207;&#x8BB0;&#xFF0C;&#x6709;&#x95EE;&#x9898;&#x627E;&#x82E5;&#x6CFD;&#x6570;&#x636E;@J&#x54E5;vx: ruoze_star)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#nodejs部署"><span class="toc-nav-number">1.2.1.</span> <span class="toc-nav-text">node.js&#x90E8;&#x7F72;</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#git部署"><span class="toc-nav-number">1.2.2.</span> <span class="toc-nav-text">git&#x90E8;&#x7F72;</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#hexo部署"><span class="toc-nav-number">1.2.3.</span> <span class="toc-nav-text">hexo&#x90E8;&#x7F72;</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#github"><span class="toc-nav-number">1.2.4.</span> <span class="toc-nav-text">github</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#hexo部署github"><span class="toc-nav-number">1.2.5.</span> <span class="toc-nav-text">hexo&#x90E8;&#x7F72;github</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#换个高大尚的主题"><span class="toc-nav-number">1.2.6.</span> <span class="toc-nav-text">&#x6362;&#x4E2A;&#x9AD8;&#x5927;&#x5C1A;&#x7684;&#x4E3B;&#x9898;</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#最终选择hackeruncle-hexo"><span class="toc-nav-number">1.2.7.</span> <span class="toc-nav-text">&#x6700;&#x7EC8;&#x9009;&#x62E9;hackeruncle-hexo(&#x2605;)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#选择hackeruncle-hexo"><span class="toc-nav-number">1.2.7.1.</span> <span class="toc-nav-text">&#x9009;&#x62E9;hackeruncle-hexo</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#clone仓库"><span class="toc-nav-number">1.2.7.2.</span> <span class="toc-nav-text">clone&#x4ED3;&#x5E93;</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#github重建仓库"><span class="toc-nav-number">1.2.7.3.</span> <span class="toc-nav-text">github&#x91CD;&#x5EFA;&#x4ED3;&#x5E93;</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#_configyml修改仓库地址"><span class="toc-nav-number">1.2.7.4.</span> <span class="toc-nav-text">_config.yml&#x4FEE;&#x6539;&#x4ED3;&#x5E93;&#x5730;&#x5740;</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#本地测试推送github"><span class="toc-nav-number">1.2.7.5.</span> <span class="toc-nav-text">&#x672C;&#x5730;&#x6D4B;&#x8BD5;+&#x63A8;&#x9001;github</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#如何创建blog"><span class="toc-nav-number">1.2.7.6.</span> <span class="toc-nav-text">&#x5982;&#x4F55;&#x521B;&#x5EFA;blog</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#markdown语法学习"><span class="toc-nav-number">1.2.7.7.</span> <span class="toc-nav-text">Markdown&#x8BED;&#x6CD5;&#x5B66;&#x4E60;</span></a></li></ol></li></ol></li></ol></li></ol>
         
         </div>
       </aside>
@@ -349,7 +334,7 @@ Peace!</p>
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
                        
-                          <a class="tag" href="/tags/#Hexo" title="Hexo">Hexo</a>
+                          <a class="tag" href="/tags/#spark" title="spark">spark</a>
                         
                     </div>
                 </section>
